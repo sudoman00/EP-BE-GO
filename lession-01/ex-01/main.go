@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func perimeter(width, height float64) float64 {
 	return (width + height) * 2
@@ -23,4 +21,5 @@ func main() {
 
 	fmt.Println("Rectangle perimeter: ", perimeter(width, height))
 	fmt.Println("Rectangle area: ", area(width, height))
+
 }
